@@ -1,0 +1,10 @@
+<model>
+ <Component expanded="1" id="0">
+  <InstructionList parentComponent="0">
+   <Instruction command="slot_none" parentComponent="0" id="1"/>
+   <Instruction command="slot_pushmatrix" parentComponent="0" id="2"/>
+   <Instruction command="slot_popmatrix" parentComponent="0" id="3"/>
+  </InstructionList>
+  <SubComponentList parentComponent="0"/>
+ </Component>
+</model>

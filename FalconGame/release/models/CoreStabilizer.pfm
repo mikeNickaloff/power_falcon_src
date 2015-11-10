@@ -1,0 +1,31 @@
+<model>
+ <Component id="0" expanded="1">
+  <InstructionList parentComponent="0" expanded="1">
+   <Instruction command="slot_pushmatrix" parentComponent="0" id="1"/>
+   <Instruction command="slot_rotatef" parentComponent="0" id="2">
+    <param paramType="6" parentInstruction="2" parentComponent="0" id="0" name="x">-90</param>
+    <param paramType="6" parentInstruction="2" parentComponent="0" id="1" name="y">0</param>
+    <param paramType="6" parentInstruction="2" parentComponent="0" id="2" name="z">0</param>
+   </Instruction>
+   <Instruction command="slot_solidcone" parentComponent="0" id="3">
+    <param paramType="6" parentInstruction="3" parentComponent="0" id="0" name="base">100</param>
+    <param paramType="6" parentInstruction="3" parentComponent="0" id="1" name="height">100</param>
+    <param paramType="6" parentInstruction="3" parentComponent="0" id="2" name="slices">10</param>
+    <param paramType="6" parentInstruction="3" parentComponent="0" id="3" name="stacks">10</param>
+   </Instruction>
+   <Instruction command="slot_translatef" parentComponent="0" id="4">
+    <param paramType="6" parentInstruction="4" parentComponent="0" id="0" name="x">0</param>
+    <param paramType="6" parentInstruction="4" parentComponent="0" id="1" name="y">0</param>
+    <param paramType="6" parentInstruction="4" parentComponent="0" id="2" name="z">30</param>
+   </Instruction>
+   <Instruction command="slot_solidtorus" parentComponent="0" id="5">
+    <param paramType="6" parentInstruction="5" parentComponent="0" id="0" name="iRad">30</param>
+    <param paramType="6" parentInstruction="5" parentComponent="0" id="1" name="oRad">30</param>
+    <param paramType="6" parentInstruction="5" parentComponent="0" id="2" name="sides">10</param>
+    <param paramType="6" parentInstruction="5" parentComponent="0" id="3" name="rings">10</param>
+   </Instruction>
+   <Instruction command="slot_popmatrix" parentComponent="0" id="6"/>
+  </InstructionList>
+  <SubComponentList parentComponent="0" expanded="0"/>
+ </Component>
+</model>

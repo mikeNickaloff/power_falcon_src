@@ -1,0 +1,23 @@
+<model>
+ <Component id="0">
+  <InstructionList parentComponent="0">
+   <Instruction parentComponent="0" command="slot_color" id="1">
+    <param parentComponent="0" paramType="6" parentInstruction="1" id="0" name="r">0.84</param>
+    <param parentComponent="0" paramType="6" parentInstruction="1" id="1" name="g">2.2</param>
+    <param parentComponent="0" paramType="6" parentInstruction="1" id="2" name="b">1.4</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_scalef" id="2">
+    <param parentComponent="0" paramType="6" parentInstruction="2" id="0" name="x_pct">0.2</param>
+    <param parentComponent="0" paramType="6" parentInstruction="2" id="1" name="y_pct">0.201</param>
+    <param parentComponent="0" paramType="6" parentInstruction="2" id="2" name="z_pct">4</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_solidcone" id="3">
+    <param parentComponent="0" paramType="6" parentInstruction="3" id="0" name="base">47.92</param>
+    <param parentComponent="0" paramType="6" parentInstruction="3" id="1" name="height">57.34</param>
+    <param parentComponent="0" paramType="6" parentInstruction="3" id="2" name="slices">10.94</param>
+    <param parentComponent="0" paramType="6" parentInstruction="3" id="3" name="stacks">10.47</param>
+   </Instruction>
+  </InstructionList>
+  <SubComponentList parentComponent="0"/>
+ </Component>
+</model>

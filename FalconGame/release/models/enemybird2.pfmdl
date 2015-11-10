@@ -1,0 +1,184 @@
+<model>
+ <Component id="0">
+  <InstructionList parentComponent="0">
+   <Instruction parentComponent="0" command="slot_popmatrix" id="1"/>
+   <Instruction parentComponent="0" command="slot_scalef" id="2">
+    <param parentComponent="0" parentInstruction="2" paramType="6" name="x_pct" id="0">12</param>
+    <param parentComponent="0" parentInstruction="2" paramType="6" name="y_pct" id="1">7</param>
+    <param parentComponent="0" parentInstruction="2" paramType="6" name="z_pct" id="2">7</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_pushmatrix" id="3"/>
+   <Instruction parentComponent="0" command="slot_wiresphere" id="4">
+    <param parentComponent="0" parentInstruction="4" paramType="6" name="radius" id="0">2.22</param>
+    <param parentComponent="0" parentInstruction="4" paramType="6" name="slices" id="1">6.15</param>
+    <param parentComponent="0" parentInstruction="4" paramType="6" name="stacks" id="2">6.68</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_color" id="5">
+    <param parentComponent="0" parentInstruction="5" paramType="6" name="r" id="0">0.7</param>
+    <param parentComponent="0" parentInstruction="5" paramType="6" name="g" id="1">0.79</param>
+    <param parentComponent="0" parentInstruction="5" paramType="6" name="b" id="2">0.67</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_pushmatrix" id="6"/>
+   <Instruction parentComponent="0" command="slot_translatef" id="7">
+    <param parentComponent="0" parentInstruction="7" paramType="6" name="x" id="0">0</param>
+    <param parentComponent="0" parentInstruction="7" paramType="6" name="y" id="1">0</param>
+    <param parentComponent="0" parentInstruction="7" paramType="6" name="z" id="2">0.47</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_solidsphere" id="8">
+    <param parentComponent="0" parentInstruction="8" paramType="6" name="radius" id="0">2.17</param>
+    <param parentComponent="0" parentInstruction="8" paramType="6" name="slices" id="1">27.99</param>
+    <param parentComponent="0" parentInstruction="8" paramType="6" name="stacks" id="2">5.71</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_popmatrix" id="9"/>
+   <Instruction parentComponent="0" command="slot_rotatef" id="10">
+    <param parentComponent="0" parentInstruction="10" paramType="6" name="x" id="0">0</param>
+    <param parentComponent="0" parentInstruction="10" paramType="6" name="y" id="1">180</param>
+    <param parentComponent="0" parentInstruction="10" paramType="6" name="z" id="2">0</param>
+   </Instruction>
+   <Instruction parentComponent="0" command="slot_solidcone" id="11">
+    <param parentComponent="0" parentInstruction="11" paramType="6" name="base" id="0">3.63</param>
+    <param parentComponent="0" parentInstruction="11" paramType="6" name="height" id="1">2.37</param>
+    <param parentComponent="0" parentInstruction="11" paramType="6" name="slices" id="2">11.66</param>
+    <param parentComponent="0" parentInstruction="11" paramType="6" name="stacks" id="3">17</param>
+   </Instruction>
+  </InstructionList>
+  <SubComponentList parentComponent="0">
+   <Component id="1">
+    <InstructionList parentComponent="1">
+     <Instruction parentComponent="1" command="slot_translatef" id="1">
+      <param parentComponent="1" parentInstruction="1" paramType="6" name="x" id="0">0</param>
+      <param parentComponent="1" parentInstruction="1" paramType="6" name="y" id="1">0</param>
+      <param parentComponent="1" parentInstruction="1" paramType="6" name="z" id="2">-0.25</param>
+     </Instruction>
+     <Instruction parentComponent="1" command="slot_color" id="2">
+      <param parentComponent="1" parentInstruction="2" paramType="6" name="r" id="0">0.75</param>
+      <param parentComponent="1" parentInstruction="2" paramType="6" name="g" id="1">0.89</param>
+      <param parentComponent="1" parentInstruction="2" paramType="6" name="b" id="2">0.94</param>
+     </Instruction>
+     <Instruction parentComponent="1" command="slot_solidtorus" id="3">
+      <param parentComponent="1" parentInstruction="3" paramType="6" name="iRad" id="0">0.81</param>
+      <param parentComponent="1" parentInstruction="3" paramType="6" name="oRad" id="1">3.31</param>
+      <param parentComponent="1" parentInstruction="3" paramType="6" name="sides" id="2">32.85</param>
+      <param parentComponent="1" parentInstruction="3" paramType="6" name="rings" id="3">8.11</param>
+     </Instruction>
+    </InstructionList>
+    <SubComponentList parentComponent="1">
+     <Component id="2">
+      <InstructionList parentComponent="2">
+       <Instruction parentComponent="2" command="slot_pushmatrix" id="1"/>
+       <Instruction parentComponent="2" command="slot_solidcone" id="2">
+        <param parentComponent="2" parentInstruction="2" paramType="6" name="base" id="0">4.27</param>
+        <param parentComponent="2" parentInstruction="2" paramType="6" name="height" id="1">2.6</param>
+        <param parentComponent="2" parentInstruction="2" paramType="6" name="slices" id="2">20</param>
+        <param parentComponent="2" parentInstruction="2" paramType="6" name="stacks" id="3">10</param>
+       </Instruction>
+       <Instruction parentComponent="2" command="slot_popmatrix" id="3"/>
+      </InstructionList>
+      <SubComponentList parentComponent="2"/>
+     </Component>
+    </SubComponentList>
+   </Component>
+   <Component id="3">
+    <InstructionList parentComponent="3">
+     <Instruction parentComponent="3" command="slot_pushmatrix" id="1"/>
+     <Instruction parentComponent="3" command="slot_rotatef" id="2">
+      <param parentComponent="3" parentInstruction="2" paramType="6" name="x" id="0">0</param>
+      <param parentComponent="3" parentInstruction="2" paramType="6" name="y" id="1">90.22</param>
+      <param parentComponent="3" parentInstruction="2" paramType="6" name="z" id="2">0</param>
+     </Instruction>
+     <Instruction parentComponent="3" command="slot_translatef" id="3">
+      <param parentComponent="3" parentInstruction="3" paramType="6" name="x" id="0">-0.06</param>
+      <param parentComponent="3" parentInstruction="3" paramType="6" name="y" id="1">-0.15</param>
+      <param parentComponent="3" parentInstruction="3" paramType="6" name="z" id="2">-2.98</param>
+     </Instruction>
+     <Instruction parentComponent="3" command="slot_scalef" id="4">
+      <param parentComponent="3" parentInstruction="4" paramType="6" name="x_pct" id="0">0.37</param>
+      <param parentComponent="3" parentInstruction="4" paramType="6" name="y_pct" id="1">1.24</param>
+      <param parentComponent="3" parentInstruction="4" paramType="6" name="z_pct" id="2">0.73</param>
+     </Instruction>
+     <Instruction parentComponent="3" command="slot_solidcone" id="5">
+      <param parentComponent="3" parentInstruction="5" paramType="6" name="base" id="0">6.65</param>
+      <param parentComponent="3" parentInstruction="5" paramType="6" name="height" id="1">13.56</param>
+      <param parentComponent="3" parentInstruction="5" paramType="6" name="slices" id="2">4.81</param>
+      <param parentComponent="3" parentInstruction="5" paramType="6" name="stacks" id="3">4</param>
+     </Instruction>
+     <Instruction parentComponent="3" command="slot_popmatrix" id="6"/>
+     <Instruction parentComponent="3" command="slot_none" id="7"/>
+    </InstructionList>
+    <SubComponentList parentComponent="3">
+     <Component id="7">
+      <InstructionList parentComponent="7"/>
+      <SubComponentList parentComponent="7">
+       <Component id="8">
+        <InstructionList parentComponent="8"/>
+        <SubComponentList parentComponent="8"/>
+       </Component>
+      </SubComponentList>
+     </Component>
+    </SubComponentList>
+   </Component>
+   <Component id="4">
+    <InstructionList parentComponent="4">
+     <Instruction parentComponent="4" command="slot_pushmatrix" id="1"/>
+     <Instruction parentComponent="4" command="slot_rotatef" id="2">
+      <param parentComponent="4" parentInstruction="2" paramType="6" name="x" id="0">0</param>
+      <param parentComponent="4" parentInstruction="2" paramType="6" name="y" id="1">-90</param>
+      <param parentComponent="4" parentInstruction="2" paramType="6" name="z" id="2">0</param>
+     </Instruction>
+     <Instruction parentComponent="4" command="slot_scalef" id="3">
+      <param parentComponent="4" parentInstruction="3" paramType="6" name="x_pct" id="0">0.65</param>
+      <param parentComponent="4" parentInstruction="3" paramType="6" name="y_pct" id="1">2.05</param>
+      <param parentComponent="4" parentInstruction="3" paramType="6" name="z_pct" id="2">-0.37</param>
+     </Instruction>
+     <Instruction parentComponent="4" command="slot_translatef" id="4">
+      <param parentComponent="4" parentInstruction="4" paramType="6" name="x" id="0">-3.46945e-18</param>
+      <param parentComponent="4" parentInstruction="4" paramType="6" name="y" id="1">0</param>
+      <param parentComponent="4" parentInstruction="4" paramType="6" name="z" id="2">-7.72</param>
+     </Instruction>
+     <Instruction parentComponent="4" command="slot_solidcone" id="5">
+      <param parentComponent="4" parentInstruction="5" paramType="6" name="base" id="0">4</param>
+      <param parentComponent="4" parentInstruction="5" paramType="6" name="height" id="1">4</param>
+      <param parentComponent="4" parentInstruction="5" paramType="6" name="slices" id="2">4</param>
+      <param parentComponent="4" parentInstruction="5" paramType="6" name="stacks" id="3">4</param>
+     </Instruction>
+     <Instruction parentComponent="4" command="slot_popmatrix" id="6"/>
+     <Instruction parentComponent="4" command="slot_none" id="7"/>
+    </InstructionList>
+    <SubComponentList parentComponent="4"/>
+   </Component>
+   <Component id="5">
+    <InstructionList parentComponent="5">
+     <Instruction parentComponent="5" command="slot_pushmatrix" id="1"/>
+     <Instruction parentComponent="5" command="slot_color" id="2">
+      <param parentComponent="5" parentInstruction="2" paramType="6" name="r" id="0">0.42</param>
+      <param parentComponent="5" parentInstruction="2" paramType="6" name="g" id="1">0.83</param>
+      <param parentComponent="5" parentInstruction="2" paramType="6" name="b" id="2">3.37</param>
+     </Instruction>
+     <Instruction parentComponent="5" command="slot_translatef" id="3">
+      <param parentComponent="5" parentInstruction="3" paramType="6" name="x" id="0">-3.35</param>
+      <param parentComponent="5" parentInstruction="3" paramType="6" name="y" id="1">0.01</param>
+      <param parentComponent="5" parentInstruction="3" paramType="6" name="z" id="2">0.13</param>
+     </Instruction>
+     <Instruction parentComponent="5" command="slot_scalef" id="4">
+      <param parentComponent="5" parentInstruction="4" paramType="6" name="x_pct" id="0">0.18</param>
+      <param parentComponent="5" parentInstruction="4" paramType="6" name="y_pct" id="1">0.57</param>
+      <param parentComponent="5" parentInstruction="4" paramType="6" name="z_pct" id="2">0.27</param>
+     </Instruction>
+     <Instruction parentComponent="5" command="slot_solidsphere" id="5">
+      <param parentComponent="5" parentInstruction="5" paramType="6" name="radius" id="0">5</param>
+      <param parentComponent="5" parentInstruction="5" paramType="6" name="slices" id="1">14.1</param>
+      <param parentComponent="5" parentInstruction="5" paramType="6" name="stacks" id="2">4</param>
+     </Instruction>
+     <Instruction parentComponent="5" command="slot_popmatrix" id="6"/>
+    </InstructionList>
+    <SubComponentList parentComponent="5"/>
+   </Component>
+   <Component id="6">
+    <InstructionList parentComponent="6">
+     <Instruction parentComponent="6" command="slot_none" id="1"/>
+    </InstructionList>
+    <SubComponentList parentComponent="6"/>
+   </Component>
+  </SubComponentList>
+ </Component>
+</model>

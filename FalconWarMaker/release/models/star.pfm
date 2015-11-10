@@ -1,0 +1,21 @@
+<model>
+ <Component expanded="1" id="0">
+  <InstructionList expanded="1" parentComponent="0">
+   <Instruction command="slot_none" parentComponent="0" id="1"/>
+   <Instruction command="slot_pushmatrix" parentComponent="0" id="2"/>
+   <Instruction command="slot_scalef" parentComponent="0" id="3">
+    <param parentInstruction="3" parentComponent="0" name="x_pct" paramType="6" id="0">114.195</param>
+    <param parentInstruction="3" parentComponent="0" name="y_pct" paramType="6" id="1">114.876</param>
+    <param parentInstruction="3" parentComponent="0" name="z_pct" paramType="6" id="2">114.196</param>
+   </Instruction>
+   <Instruction command="slot_color" parentComponent="0" id="4">
+    <param parentInstruction="4" parentComponent="0" name="r" paramType="6" id="0">0.923666</param>
+    <param parentInstruction="4" parentComponent="0" name="g" paramType="6" id="1">0.911087</param>
+    <param parentInstruction="4" parentComponent="0" name="b" paramType="6" id="2">0.79798</param>
+   </Instruction>
+   <Instruction command="slot_solid_dodecahedron" parentComponent="0" id="5"/>
+   <Instruction command="slot_popmatrix" parentComponent="0" id="6"/>
+  </InstructionList>
+  <SubComponentList expanded="0" parentComponent="0"/>
+ </Component>
+</model>

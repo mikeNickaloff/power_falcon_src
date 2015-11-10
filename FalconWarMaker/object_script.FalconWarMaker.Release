@@ -1,0 +1,16 @@
+INPUT(
+./GeneratedFiles\obj\main.o
+./GeneratedFiles\obj\mainwindow.o
+./GeneratedFiles\obj\glviewer.o
+./GeneratedFiles\obj\menuhandler.o
+./GeneratedFiles\obj\addlevelobject.o
+./GeneratedFiles\obj\modelselectionui.o
+./GeneratedFiles\obj\levelobjecteditor.o
+./GeneratedFiles\obj\3DMath.o
+./GeneratedFiles\obj\moc_mainwindow.o
+./GeneratedFiles\obj\moc_glviewer.o
+./GeneratedFiles\obj\moc_menuhandler.o
+./GeneratedFiles\obj\moc_addlevelobject.o
+./GeneratedFiles\obj\moc_modelselectionui.o
+./GeneratedFiles\obj\moc_levelobjecteditor.o
+);

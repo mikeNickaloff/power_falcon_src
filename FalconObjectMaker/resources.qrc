@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>queries/wholeTree.xq</file>
+        <file>src_xml/testModel.txt</file>
+        <file>src_icons/down.png</file>
+        <file>src_icons/up.png</file>
+        <file>src_icons/delete.png</file>
+        <file>src_icons/insert.png</file>
+        <file>bird4.pfmdl</file>
+        <file>blank.pfm</file>
+    </qresource>
+</RCC>
